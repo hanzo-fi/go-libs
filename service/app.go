@@ -10,10 +10,10 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/formancehq/go-libs/v2/otlp/otlptraces"
+	"github.com/hanzo-fi/go-libs/v2/otlp/otlptraces"
 
-	"github.com/formancehq/go-libs/v2/errorsutils"
-	"github.com/formancehq/go-libs/v2/logging"
+	"github.com/hanzo-fi/go-libs/v2/errorsutils"
+	"github.com/hanzo-fi/go-libs/v2/logging"
 	"github.com/spf13/cobra"
 	"go.uber.org/fx"
 )

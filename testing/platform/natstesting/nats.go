@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/formancehq/go-libs/v2/logging"
+	"github.com/hanzo-fi/go-libs/v2/logging"
 	natsserver "github.com/nats-io/nats-server/v2/server"
 	"github.com/nats-io/nats.go"
 	"github.com/stretchr/testify/require"

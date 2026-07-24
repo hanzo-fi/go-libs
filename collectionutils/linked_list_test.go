@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/formancehq/go-libs/v2/collectionutils"
+	"github.com/hanzo-fi/go-libs/v2/collectionutils"
 	"github.com/stretchr/testify/require"
 )
 

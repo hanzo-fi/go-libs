@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/formancehq/go-libs/v2/collectionutils"
-	"github.com/formancehq/go-libs/v2/logging"
+	"github.com/hanzo-fi/go-libs/v2/collectionutils"
+	"github.com/hanzo-fi/go-libs/v2/logging"
 	"github.com/hashicorp/go-retryablehttp"
 	"github.com/zitadel/oidc/v2/pkg/oidc"
 	"github.com/zitadel/oidc/v2/pkg/op"

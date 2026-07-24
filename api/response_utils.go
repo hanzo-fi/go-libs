@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/formancehq/go-libs/v2/bun/bunpaginate"
+	"github.com/hanzo-fi/go-libs/v2/bun/bunpaginate"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

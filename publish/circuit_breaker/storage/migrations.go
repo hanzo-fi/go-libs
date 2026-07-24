@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/formancehq/go-libs/v2/migrations"
+	"github.com/hanzo-fi/go-libs/v2/migrations"
 	"github.com/uptrace/bun"
 )
 

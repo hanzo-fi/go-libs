@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	libtime "github.com/formancehq/go-libs/v2/time"
+	libtime "github.com/hanzo-fi/go-libs/v2/time"
 	"github.com/stretchr/testify/require"
 )
 

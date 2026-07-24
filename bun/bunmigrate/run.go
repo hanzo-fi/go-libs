@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/formancehq/go-libs/v2/bun/bunconnect"
-	sharedlogging "github.com/formancehq/go-libs/v2/logging"
-	"github.com/formancehq/go-libs/v2/pointer"
+	"github.com/hanzo-fi/go-libs/v2/bun/bunconnect"
+	sharedlogging "github.com/hanzo-fi/go-libs/v2/logging"
+	"github.com/hanzo-fi/go-libs/v2/pointer"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/uptrace/bun"

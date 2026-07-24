@@ -7,14 +7,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/formancehq/go-libs/v2/testing/utils"
+	"github.com/hanzo-fi/go-libs/v2/testing/utils"
 	"github.com/google/uuid"
 	"github.com/spf13/pflag"
 
-	"github.com/formancehq/go-libs/v2/logging"
-	"github.com/formancehq/go-libs/v2/testing/docker"
+	"github.com/hanzo-fi/go-libs/v2/logging"
+	"github.com/hanzo-fi/go-libs/v2/testing/docker"
 
-	"github.com/formancehq/go-libs/v2/testing/platform/pgtesting"
+	"github.com/hanzo-fi/go-libs/v2/testing/platform/pgtesting"
 
 	_ "github.com/jackc/pgx/v5/stdlib"
 	"github.com/stretchr/testify/require"

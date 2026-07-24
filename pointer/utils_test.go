@@ -3,7 +3,7 @@ package pointer_test
 import (
 	"testing"
 
-	"github.com/formancehq/go-libs/v2/pointer"
+	"github.com/hanzo-fi/go-libs/v2/pointer"
 	"github.com/stretchr/testify/require"
 )
 
