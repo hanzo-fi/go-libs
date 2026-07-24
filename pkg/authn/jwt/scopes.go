@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
-	collectionutils "github.com/formancehq/go-libs/v5/pkg/types/collections"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
+	collectionutils "github.com/hanzo-fi/go-libs/v5/pkg/types/collections"
 )
 
 func checkScopes(service string, method string, scopes oidc.SpaceDelimitedArray) (bool, error) {

@@ -3,7 +3,7 @@ package transportfx
 import (
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v5/pkg/transport/httpserver"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/httpserver"
 )
 
 // FXHook converts an httpserver.Hook into an fx.Hook for use with fx.Lifecycle.

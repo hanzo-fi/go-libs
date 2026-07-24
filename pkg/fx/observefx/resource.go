@@ -5,7 +5,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/resource"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe"
 )
 
 func ResourceModule(cfg observe.Config) fx.Option {

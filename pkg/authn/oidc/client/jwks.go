@@ -9,8 +9,8 @@ import (
 
 	"github.com/go-jose/go-jose/v4"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
-	httphelper "github.com/formancehq/go-libs/v5/pkg/authn/oidc/http"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
+	httphelper "github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc/http"
 )
 
 func NewRemoteKeySet(client *http.Client, jwksURL string, opts ...func(*remoteKeySet)) oidc.KeySet {

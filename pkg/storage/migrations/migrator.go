@@ -17,10 +17,10 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"go.opentelemetry.io/otel/trace/noop"
 
-	otlp "github.com/formancehq/go-libs/v5/pkg/observe"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/storage/postgres"
-	"github.com/formancehq/go-libs/v5/pkg/types/time"
+	otlp "github.com/hanzo-fi/go-libs/v5/pkg/observe"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/postgres"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/time"
 )
 
 const (

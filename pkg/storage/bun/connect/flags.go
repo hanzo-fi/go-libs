@@ -12,8 +12,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/pflag"
 
-	"github.com/formancehq/go-libs/v5/pkg/cloud/aws/iam"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/cloud/aws/iam"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 const (

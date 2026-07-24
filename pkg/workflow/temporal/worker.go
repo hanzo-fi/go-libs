@@ -8,7 +8,7 @@ import (
 	"go.temporal.io/sdk/worker"
 	temporalworkflow "go.temporal.io/sdk/workflow"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 type Definition struct {

@@ -8,8 +8,8 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 
 	"go.temporal.io/sdk/log"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 func keyvalsToMap(keyvals ...interface{}) map[string]any {

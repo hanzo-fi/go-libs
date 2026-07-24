@@ -1,6 +1,6 @@
 package paginate
 
-import collectionutils "github.com/formancehq/go-libs/v5/pkg/types/collections"
+import collectionutils "github.com/hanzo-fi/go-libs/v5/pkg/types/collections"
 
 type Cursor[T any] struct {
 	PageSize int    `json:"pageSize,omitempty"`

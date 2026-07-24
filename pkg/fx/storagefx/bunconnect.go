@@ -6,9 +6,9 @@ import (
 	"github.com/uptrace/bun"
 	"go.uber.org/fx"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/storage/bun/connect"
-	"github.com/formancehq/go-libs/v5/pkg/storage/bun/debug"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/connect"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/debug"
 )
 
 func BunConnectModule(connectionOptions connect.ConnectionOptions, debugMode bool) fx.Option {

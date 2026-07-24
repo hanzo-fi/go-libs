@@ -7,10 +7,10 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxtest"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/jwt"
-	"github.com/formancehq/go-libs/v5/pkg/fx/authnfx"
-	"github.com/formancehq/go-libs/v5/pkg/fx/messagingfx"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/jwt"
+	"github.com/hanzo-fi/go-libs/v5/pkg/fx/authnfx"
+	"github.com/hanzo-fi/go-libs/v5/pkg/fx/messagingfx"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 // Regression test for TS-456: JWTModule and messagingfx.HTTPModule both

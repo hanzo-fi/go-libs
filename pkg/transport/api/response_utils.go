@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	bunpaginate "github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
+	bunpaginate "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/paginate"
 )
 
 func Encode(t require.TestingT, v interface{}) []byte {

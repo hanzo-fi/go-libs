@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	bunpaginate "github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	bunpaginate "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/paginate"
 )
 
 const (

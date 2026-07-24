@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	auth "github.com/formancehq/go-libs/v5/pkg/authn/jwt"
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
+	auth "github.com/hanzo-fi/go-libs/v5/pkg/authn/jwt"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
 )
 
 func TestDefaultControlPlaneAgent_GetScopes(t *testing.T) {

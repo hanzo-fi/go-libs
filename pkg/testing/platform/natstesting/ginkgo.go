@@ -3,8 +3,8 @@ package natstesting
 import (
 	. "github.com/onsi/ginkgo/v2"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/testing/deferred"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/deferred"
 )
 
 func WithNewNatsServer(logger logging.Logger, fn func(p *deferred.Deferred[*NatsServer])) bool {

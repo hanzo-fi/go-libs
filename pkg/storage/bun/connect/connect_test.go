@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/jackc/pgx/v5"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 func TestObfuscateDSN(t *testing.T) {

@@ -11,8 +11,8 @@ import (
 	"go.temporal.io/sdk/worker"
 	"go.uber.org/fx"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/workflow/temporal"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/workflow/temporal"
 )
 
 func TemporalClientModuleFromFlags(cmd *cobra.Command, tracer trace.Tracer, searchAttributes temporal.SearchAttributes) fx.Option {

@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	auth "github.com/formancehq/go-libs/v5/pkg/authn/jwt"
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
-	"github.com/formancehq/go-libs/v5/pkg/service/apispec"
+	auth "github.com/hanzo-fi/go-libs/v5/pkg/authn/jwt"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
+	"github.com/hanzo-fi/go-libs/v5/pkg/service/apispec"
 )
 
 var scopeCheckSpec = []byte(`

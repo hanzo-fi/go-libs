@@ -3,7 +3,7 @@ package testservice
 import (
 	"context"
 
-	"github.com/formancehq/go-libs/v5/pkg/transport/grpcserver"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/grpcserver"
 )
 
 func GRPCServerInstrumentation() Instrumentation {

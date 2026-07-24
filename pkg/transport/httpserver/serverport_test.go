@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/transport/serverport"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/serverport"
 )
 
 // safeBuffer is a goroutine-safe io.Writer used to capture log output emitted

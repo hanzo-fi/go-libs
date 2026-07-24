@@ -16,8 +16,8 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/formancehq/go-libs/v5/pkg/messaging/queue"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/messaging/queue"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 func TestNewListenerDefaultsWorkerCount(t *testing.T) {

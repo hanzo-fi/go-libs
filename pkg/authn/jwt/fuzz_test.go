@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
 )
 
 func FuzzCheckScopes(f *testing.F) {

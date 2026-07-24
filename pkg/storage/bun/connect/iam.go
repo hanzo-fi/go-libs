@@ -14,11 +14,11 @@ import (
 	"github.com/xo/dburl"
 	"go.opentelemetry.io/otel"
 
-	otlp "github.com/formancehq/go-libs/v5/pkg/observe"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	otlp "github.com/hanzo-fi/go-libs/v5/pkg/observe"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
-var tracer = otel.Tracer("github.com/formancehq/go-libs/v5/pkg/storage/bun/connect")
+var tracer = otel.Tracer("github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/connect")
 
 type iamDriver struct {
 	awsConfig aws.Config

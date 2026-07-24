@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 type httpTransport struct {

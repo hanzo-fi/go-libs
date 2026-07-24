@@ -5,8 +5,8 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/profiling"
-	"github.com/formancehq/go-libs/v5/pkg/transport/httpserver"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/profiling"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/httpserver"
 )
 
 func ProfilingModule(bindPort string, enable bool) fx.Option {

@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/transport/serverport"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/serverport"
 )
 
 // Hook represents a lifecycle hook for the gRPC server.

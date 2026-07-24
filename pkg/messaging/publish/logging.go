@@ -3,7 +3,7 @@ package publish
 import (
 	"github.com/ThreeDotsLabs/watermill"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 type watermillLoggerAdapter struct {

@@ -8,7 +8,7 @@ import (
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/stretchr/testify/require"
 
-	"github.com/formancehq/go-libs/v5/pkg/storage/postgres"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/postgres"
 )
 
 func TestResolveError(t *testing.T) {

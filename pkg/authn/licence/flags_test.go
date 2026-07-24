@@ -7,7 +7,7 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/require"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/licence"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/licence"
 )
 
 func TestAddFlags(t *testing.T) {

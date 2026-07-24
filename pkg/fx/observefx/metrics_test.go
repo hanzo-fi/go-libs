@@ -10,9 +10,9 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxtest"
 
-	"github.com/formancehq/go-libs/v5/pkg/fx/observefx"
-	"github.com/formancehq/go-libs/v5/pkg/observe"
-	"github.com/formancehq/go-libs/v5/pkg/observe/metrics"
+	"github.com/hanzo-fi/go-libs/v5/pkg/fx/observefx"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/metrics"
 )
 
 func TestMetricsModuleProvidesRuntimeOptionsToRuntimeMetricsInvoke(t *testing.T) {

@@ -14,10 +14,10 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxtest"
 
-	auth "github.com/formancehq/go-libs/v5/pkg/authn/jwt"
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
-	"github.com/formancehq/go-libs/v5/pkg/fx/authnfx"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	auth "github.com/hanzo-fi/go-libs/v5/pkg/authn/jwt"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
+	"github.com/hanzo-fi/go-libs/v5/pkg/fx/authnfx"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 // setupTestOIDCServer creates an HTTP test server that simulates an OIDC provider

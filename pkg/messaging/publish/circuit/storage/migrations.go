@@ -6,7 +6,7 @@ import (
 
 	"github.com/uptrace/bun"
 
-	"github.com/formancehq/go-libs/v5/pkg/storage/migrations"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/migrations"
 )
 
 func registerMigrations(migrator *migrations.Migrator, schema string) {

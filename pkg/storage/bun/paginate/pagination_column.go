@@ -10,7 +10,7 @@ import (
 
 	"github.com/uptrace/bun"
 
-	libtime "github.com/formancehq/go-libs/v5/pkg/types/time"
+	libtime "github.com/hanzo-fi/go-libs/v5/pkg/types/time"
 )
 
 func UsingColumn[FILTERS any, ENTITY any](ctx context.Context,

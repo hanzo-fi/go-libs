@@ -3,7 +3,7 @@ package traces
 import (
 	flag "github.com/spf13/pflag"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe"
 )
 
 const (

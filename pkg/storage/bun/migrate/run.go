@@ -11,9 +11,9 @@ import (
 	"github.com/uptrace/bun"
 	"github.com/xo/dburl"
 
-	sharedlogging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	bunconnect "github.com/formancehq/go-libs/v5/pkg/storage/bun/connect"
-	"github.com/formancehq/go-libs/v5/pkg/types/pointer"
+	sharedlogging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	bunconnect "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/connect"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/pointer"
 )
 
 func isDatabaseExists(ctx context.Context, db *bun.DB, name string) (bool, error) {

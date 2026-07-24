@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/formancehq/go-libs/v5/pkg/transport/api"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/api"
 )
 
 func TestIdempotencyKeyFromRequest(t *testing.T) {

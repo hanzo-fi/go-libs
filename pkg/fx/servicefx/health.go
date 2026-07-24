@@ -3,7 +3,7 @@ package servicefx
 import (
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v5/pkg/service/health"
+	"github.com/hanzo-fi/go-libs/v5/pkg/service/health"
 )
 
 const HealthCheckKey = `group:"_healthCheck"`
