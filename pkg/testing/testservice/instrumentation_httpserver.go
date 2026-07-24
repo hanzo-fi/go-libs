@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/formancehq/go-libs/v5/pkg/transport/httpserver"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/httpserver"
 )
 
 func HTTPServerInstrumentation() Instrumentation {

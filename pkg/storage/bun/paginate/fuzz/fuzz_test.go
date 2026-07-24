@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
+	"github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/paginate"
 )
 
 func FuzzUnmarshalCursor(f *testing.F) {

@@ -12,9 +12,9 @@ import (
 	"github.com/google/uuid"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/jwt"
-	"github.com/formancehq/go-libs/v5/pkg/messaging/publish"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/jwt"
+	"github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 // NewEventMessage builds the Watermill message used for audit events.

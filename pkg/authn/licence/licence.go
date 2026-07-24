@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 type Licence struct {

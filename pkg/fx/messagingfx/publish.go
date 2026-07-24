@@ -29,15 +29,15 @@ import (
 	"github.com/xdg-go/scram"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v5/pkg/cloud/aws/iam"
-	"github.com/formancehq/go-libs/v5/pkg/messaging/publish"
-	circuitbreaker "github.com/formancehq/go-libs/v5/pkg/messaging/publish/circuit"
-	circuitstorage "github.com/formancehq/go-libs/v5/pkg/messaging/publish/circuit/storage"
-	topicmapper "github.com/formancehq/go-libs/v5/pkg/messaging/publish/topicmap"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/service"
-	bunconnect "github.com/formancehq/go-libs/v5/pkg/storage/bun/connect"
-	bundebug "github.com/formancehq/go-libs/v5/pkg/storage/bun/debug"
+	"github.com/hanzo-fi/go-libs/v5/pkg/cloud/aws/iam"
+	"github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish"
+	circuitbreaker "github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish/circuit"
+	circuitstorage "github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish/circuit/storage"
+	topicmapper "github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish/topicmap"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/service"
+	bunconnect "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/connect"
+	bundebug "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/debug"
 )
 
 func defaultLoggingModule() fx.Option {

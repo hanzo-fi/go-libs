@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	bunpaginate "github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
-	"github.com/formancehq/go-libs/v5/pkg/transport/api"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	bunpaginate "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/paginate"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/api"
 )
 
 func TestWriteErrorResponse(t *testing.T) {

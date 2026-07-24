@@ -1,7 +1,7 @@
 package audit
 
 import (
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
 )
 
 type Options struct {

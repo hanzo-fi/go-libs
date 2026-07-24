@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 
-	"github.com/formancehq/go-libs/v5/pkg/messaging/publish/circuit/storage"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish/circuit/storage"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 type State string

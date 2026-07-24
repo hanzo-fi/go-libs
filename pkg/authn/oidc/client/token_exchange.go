@@ -6,9 +6,9 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
-	httphelper "github.com/formancehq/go-libs/v5/pkg/authn/oidc/http"
-	"github.com/formancehq/go-libs/v5/pkg/types/time"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
+	httphelper "github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc/http"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/time"
 )
 
 // TokenExchange performs a token exchange as defined in RFC 8693.

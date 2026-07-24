@@ -6,9 +6,9 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/licence"
-	"github.com/formancehq/go-libs/v5/pkg/errors"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/licence"
+	"github.com/hanzo-fi/go-libs/v5/pkg/errors"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 func LicenceModuleFromFlags(

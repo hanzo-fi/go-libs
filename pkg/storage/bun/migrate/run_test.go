@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/uptrace/bun"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	bunconnect "github.com/formancehq/go-libs/v5/pkg/storage/bun/connect"
-	"github.com/formancehq/go-libs/v5/pkg/testing/docker"
-	"github.com/formancehq/go-libs/v5/pkg/testing/platform/pgtesting"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	bunconnect "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/connect"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/docker"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/platform/pgtesting"
 )
 
 func TestRunMigrate(t *testing.T) {

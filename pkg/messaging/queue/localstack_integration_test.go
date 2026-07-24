@@ -18,11 +18,11 @@ import (
 	. "github.com/onsi/gomega"
 	gomegatypes "github.com/onsi/gomega/types"
 
-	"github.com/formancehq/go-libs/v5/pkg/messaging/queue"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/testing/docker"
-	"github.com/formancehq/go-libs/v5/pkg/testing/platform/localstacktesting"
-	"github.com/formancehq/go-libs/v5/pkg/testing/utils"
+	"github.com/hanzo-fi/go-libs/v5/pkg/messaging/queue"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/docker"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/platform/localstacktesting"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/utils"
 )
 
 var srv *localstacktesting.LocalstackServer

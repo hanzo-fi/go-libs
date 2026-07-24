@@ -8,7 +8,7 @@ import (
 
 	"github.com/onsi/gomega/types"
 
-	"github.com/formancehq/go-libs/v5/pkg/transport/api"
+	"github.com/hanzo-fi/go-libs/v5/pkg/transport/api"
 )
 
 type HaveErrorCodeMatcher struct {

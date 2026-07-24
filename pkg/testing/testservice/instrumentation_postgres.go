@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	bunconnect "github.com/formancehq/go-libs/v5/pkg/storage/bun/connect"
-	"github.com/formancehq/go-libs/v5/pkg/testing/deferred"
+	bunconnect "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/connect"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/deferred"
 )
 
 func PostgresInstrumentation(postgresConfiguration *deferred.Deferred[bunconnect.ConnectionOptions]) Instrumentation {

@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v5/pkg/fx/servicefx"
-	"github.com/formancehq/go-libs/v5/pkg/service/health"
+	"github.com/hanzo-fi/go-libs/v5/pkg/fx/servicefx"
+	"github.com/hanzo-fi/go-libs/v5/pkg/service/health"
 )
 
 func TestHealthController(t *testing.T) {

@@ -13,9 +13,9 @@ import (
 	"github.com/ory/dockertest/v3"
 	"github.com/stretchr/testify/require"
 
-	sharedlogging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	bunconnect "github.com/formancehq/go-libs/v5/pkg/storage/bun/connect"
-	"github.com/formancehq/go-libs/v5/pkg/testing/docker"
+	sharedlogging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	bunconnect "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/connect"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/docker"
 )
 
 type T interface {

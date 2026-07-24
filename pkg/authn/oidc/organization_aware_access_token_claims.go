@@ -1,6 +1,6 @@
 package oidc
 
-import "github.com/formancehq/go-libs/v5/pkg/types/time"
+import "github.com/hanzo-fi/go-libs/v5/pkg/types/time"
 
 const ClaimOrganizationID = "organization_id"
 

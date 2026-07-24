@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	gomock "go.uber.org/mock/gomock"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/service/apispec"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/service/apispec"
 )
 
 func TestMiddleware(t *testing.T) {

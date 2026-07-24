@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	bunpaginate "github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
+	bunpaginate "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/paginate"
 )
 
 func TestCursor(t *testing.T) {

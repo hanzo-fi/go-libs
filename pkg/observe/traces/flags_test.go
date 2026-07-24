@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/require"
 
-	"github.com/formancehq/go-libs/v5/pkg/observe/traces"
+	"github.com/hanzo-fi/go-libs/v5/pkg/observe/traces"
 )
 
 func TestAddFlags(t *testing.T) {

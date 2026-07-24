@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
-	httphelper "github.com/formancehq/go-libs/v5/pkg/authn/oidc/http"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
+	httphelper "github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc/http"
 )
 
 // Discover calls the discovery endpoint of the provided issuer and returns its configuration

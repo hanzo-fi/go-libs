@@ -17,9 +17,9 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxtest"
 
-	"github.com/formancehq/go-libs/v5/pkg/fx/messagingfx"
-	"github.com/formancehq/go-libs/v5/pkg/messaging/publish"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/fx/messagingfx"
+	"github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 func TestModule(t *testing.T) {

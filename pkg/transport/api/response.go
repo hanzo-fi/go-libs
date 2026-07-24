@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"net/url"
 
-	bunpaginate "github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
+	bunpaginate "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/paginate"
 )
 
 type BaseResponse[T any] struct {

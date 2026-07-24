@@ -8,8 +8,8 @@ import (
 	"github.com/go-jose/go-jose/v4"
 	"golang.org/x/oauth2"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
-	httphelper "github.com/formancehq/go-libs/v5/pkg/authn/oidc/http"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
+	httphelper "github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc/http"
 )
 
 const (

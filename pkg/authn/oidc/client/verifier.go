@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-jose/go-jose/v4"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
-	"github.com/formancehq/go-libs/v5/pkg/types/time"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/time"
 )
 
 // VerifyTokens implement the Token Response Validation as defined in OIDC specification

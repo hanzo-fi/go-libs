@@ -11,9 +11,9 @@ import (
 	"go.uber.org/dig"
 	"go.uber.org/fx"
 
-	errorsutils "github.com/formancehq/go-libs/v5/pkg/errors"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	otlptraces "github.com/formancehq/go-libs/v5/pkg/observe/traces"
+	errorsutils "github.com/hanzo-fi/go-libs/v5/pkg/errors"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	otlptraces "github.com/hanzo-fi/go-libs/v5/pkg/observe/traces"
 )
 
 const (

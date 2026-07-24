@@ -12,7 +12,7 @@ import (
 
 	jose "github.com/go-jose/go-jose/v4"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/time"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/time"
 )
 
 type Claims interface {

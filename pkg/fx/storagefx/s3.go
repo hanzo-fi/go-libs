@@ -11,8 +11,8 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v5/pkg/cloud/aws/iam"
-	s3bucket "github.com/formancehq/go-libs/v5/pkg/storage/s3"
+	"github.com/hanzo-fi/go-libs/v5/pkg/cloud/aws/iam"
+	s3bucket "github.com/hanzo-fi/go-libs/v5/pkg/storage/s3"
 )
 
 func S3ModuleFromFlags(cmd *cobra.Command) fx.Option {

@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/uptrace/bun"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	bunconnect "github.com/formancehq/go-libs/v5/pkg/storage/bun/connect"
-	bundebug "github.com/formancehq/go-libs/v5/pkg/storage/bun/debug"
-	bunpaginate "github.com/formancehq/go-libs/v5/pkg/storage/bun/paginate"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	bunconnect "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/connect"
+	bundebug "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/debug"
+	bunpaginate "github.com/hanzo-fi/go-libs/v5/pkg/storage/bun/paginate"
 )
 
 func TestColumnPagination(t *testing.T) {

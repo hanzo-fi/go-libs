@@ -12,7 +12,7 @@ import (
 	"github.com/zitadel/schema"
 	"golang.org/x/text/language"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/time"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/time"
 )
 
 type Audience []string

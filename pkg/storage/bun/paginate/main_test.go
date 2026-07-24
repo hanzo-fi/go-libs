@@ -3,10 +3,10 @@ package paginate_test
 import (
 	"testing"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
-	"github.com/formancehq/go-libs/v5/pkg/testing/docker"
-	"github.com/formancehq/go-libs/v5/pkg/testing/platform/pgtesting"
-	"github.com/formancehq/go-libs/v5/pkg/testing/utils"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/docker"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/platform/pgtesting"
+	"github.com/hanzo-fi/go-libs/v5/pkg/testing/utils"
 )
 
 var srv *pgtesting.PostgresServer

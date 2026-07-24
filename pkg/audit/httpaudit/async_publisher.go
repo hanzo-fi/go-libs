@@ -8,8 +8,8 @@ import (
 
 	"github.com/ThreeDotsLabs/watermill/message"
 
-	"github.com/formancehq/go-libs/v5/pkg/audit"
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	"github.com/hanzo-fi/go-libs/v5/pkg/audit"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 const (

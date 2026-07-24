@@ -7,7 +7,7 @@ import (
 	wNats "github.com/ThreeDotsLabs/watermill-nats/v2/pkg/nats"
 	"github.com/nats-io/nats.go"
 
-	logging "github.com/formancehq/go-libs/v5/pkg/observe/log"
+	logging "github.com/hanzo-fi/go-libs/v5/pkg/observe/log"
 )
 
 func NewNatsConn(config wNats.PublisherConfig) (*nats.Conn, error) {

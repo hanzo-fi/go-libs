@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/require"
 
-	"github.com/formancehq/go-libs/v5/pkg/messaging/publish"
+	"github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish"
 )
 
 func TestInitNatsCLIFlagsUsesAutoProvisionOverride(t *testing.T) {

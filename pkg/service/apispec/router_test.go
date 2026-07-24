@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/formancehq/go-libs/v5/pkg/service/apispec"
+	"github.com/hanzo-fi/go-libs/v5/pkg/service/apispec"
 )
 
 func newTestDoc(t *testing.T, spec []byte) *openapi3.T {

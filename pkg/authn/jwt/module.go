@@ -7,8 +7,8 @@ import (
 
 	"github.com/hashicorp/go-retryablehttp"
 
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc"
-	"github.com/formancehq/go-libs/v5/pkg/authn/oidc/client"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc"
+	"github.com/hanzo-fi/go-libs/v5/pkg/authn/oidc/client"
 )
 
 type Config struct {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/formancehq/go-libs/v5/pkg/types/time"
+	"github.com/hanzo-fi/go-libs/v5/pkg/types/time"
 )
 
 const (

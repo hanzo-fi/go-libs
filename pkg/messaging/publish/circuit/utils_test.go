@@ -7,7 +7,7 @@ import (
 
 	"github.com/ThreeDotsLabs/watermill/message"
 
-	"github.com/formancehq/go-libs/v5/pkg/messaging/publish/circuit/storage"
+	"github.com/hanzo-fi/go-libs/v5/pkg/messaging/publish/circuit/storage"
 )
 
 type payload struct {
