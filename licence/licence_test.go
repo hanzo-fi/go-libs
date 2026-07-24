@@ -16,7 +16,7 @@ import (
 	"github.com/lestrrat-go/jwx/jwk"
 	"github.com/stretchr/testify/require"
 
-	"github.com/formancehq/go-libs/v3/logging"
+	"github.com/hanzo-fi/go-libs/v3/logging"
 )
 
 // Mock logger

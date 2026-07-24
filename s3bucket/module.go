@@ -5,7 +5,7 @@ import (
 	"github.com/spf13/pflag"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v3/aws/iam"
+	"github.com/hanzo-fi/go-libs/v3/aws/iam"
 )
 
 const (

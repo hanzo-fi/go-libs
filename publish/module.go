@@ -10,8 +10,8 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v3/logging"
-	topicmapper "github.com/formancehq/go-libs/v3/publish/topic_mapper"
+	"github.com/hanzo-fi/go-libs/v3/logging"
+	topicmapper "github.com/hanzo-fi/go-libs/v3/publish/topic_mapper"
 )
 
 func newGoChannel() *gochannel.GoChannel {

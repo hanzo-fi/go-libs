@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/formancehq/go-libs/v3/collectionutils"
-	"github.com/formancehq/go-libs/v3/oidc"
+	"github.com/hanzo-fi/go-libs/v3/collectionutils"
+	"github.com/hanzo-fi/go-libs/v3/oidc"
 )
 
 type JWTAuth struct {

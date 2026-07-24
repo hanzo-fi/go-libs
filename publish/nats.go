@@ -11,7 +11,7 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v3/logging"
+	"github.com/hanzo-fi/go-libs/v3/logging"
 )
 
 func NewNatsConn(config wNats.PublisherConfig) (*nats.Conn, error) {

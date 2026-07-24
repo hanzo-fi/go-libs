@@ -6,9 +6,9 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/formancehq/go-libs/v3/oidc"
-	httphelper "github.com/formancehq/go-libs/v3/oidc/http"
-	"github.com/formancehq/go-libs/v3/time"
+	"github.com/hanzo-fi/go-libs/v3/oidc"
+	httphelper "github.com/hanzo-fi/go-libs/v3/oidc/http"
+	"github.com/hanzo-fi/go-libs/v3/time"
 )
 
 type TokenEndpointCaller interface {

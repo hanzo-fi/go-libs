@@ -13,8 +13,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/formancehq/go-libs/v3/aws/iam"
-	"github.com/formancehq/go-libs/v3/logging"
+	"github.com/hanzo-fi/go-libs/v3/aws/iam"
+	"github.com/hanzo-fi/go-libs/v3/logging"
 )
 
 const (

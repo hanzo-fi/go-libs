@@ -14,7 +14,7 @@ import (
 	tracesdk "go.opentelemetry.io/otel/sdk/trace"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v3/otlp"
+	"github.com/hanzo-fi/go-libs/v3/otlp"
 )
 
 func TestOTLPTracesModule(t *testing.T) {

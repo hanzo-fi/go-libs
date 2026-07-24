@@ -4,7 +4,7 @@ import (
 	"github.com/ThreeDotsLabs/watermill"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v3/logging"
+	"github.com/hanzo-fi/go-libs/v3/logging"
 )
 
 type watermillLoggerAdapter struct {

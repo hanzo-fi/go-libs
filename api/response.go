@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/formancehq/go-libs/v3/bun/bunpaginate"
+	"github.com/hanzo-fi/go-libs/v3/bun/bunpaginate"
 )
 
 type BaseResponse[T any] struct {

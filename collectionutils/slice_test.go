@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/formancehq/go-libs/v3/collectionutils"
+	"github.com/hanzo-fi/go-libs/v3/collectionutils"
 )
 
 func TestMap(t *testing.T) {

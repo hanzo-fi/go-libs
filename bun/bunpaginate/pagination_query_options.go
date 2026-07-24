@@ -3,7 +3,7 @@ package bunpaginate
 import (
 	"encoding/json"
 
-	"github.com/formancehq/go-libs/v3/query"
+	"github.com/hanzo-fi/go-libs/v3/query"
 )
 
 type PaginatedQueryOptions[T any] struct {

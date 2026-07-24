@@ -3,8 +3,8 @@ package clickhousetesting
 import (
 	. "github.com/onsi/ginkgo/v2"
 
-	"github.com/formancehq/go-libs/v3/testing/deferred"
-	. "github.com/formancehq/go-libs/v3/testing/docker/ginkgo"
+	"github.com/hanzo-fi/go-libs/v3/testing/deferred"
+	. "github.com/hanzo-fi/go-libs/v3/testing/docker/ginkgo"
 )
 
 func WithClickhouse(fn func(d *deferred.Deferred[*Server])) {

@@ -10,8 +10,8 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/clientcredentials"
 
-	"github.com/formancehq/go-libs/v3/oidc"
-	httphelper "github.com/formancehq/go-libs/v3/oidc/http"
+	"github.com/hanzo-fi/go-libs/v3/oidc"
+	httphelper "github.com/hanzo-fi/go-libs/v3/oidc/http"
 )
 
 const (

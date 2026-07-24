@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/formancehq/go-libs/v3/api"
-	"github.com/formancehq/go-libs/v3/bun/bunpaginate"
+	"github.com/hanzo-fi/go-libs/v3/api"
+	"github.com/hanzo-fi/go-libs/v3/bun/bunpaginate"
 )
 
 func ReadErrorResponse(t *testing.T, r io.Reader) *api.ErrorResponse {

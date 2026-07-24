@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/formancehq/go-libs/v3/oidc"
+	"github.com/hanzo-fi/go-libs/v3/oidc"
 )
 
 var DefaultHTTPClient = &http.Client{

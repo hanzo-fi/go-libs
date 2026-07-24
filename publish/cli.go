@@ -13,9 +13,9 @@ import (
 	"github.com/xdg-go/scram"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v3/aws/iam"
-	circuitbreaker "github.com/formancehq/go-libs/v3/publish/circuit_breaker"
-	topicmapper "github.com/formancehq/go-libs/v3/publish/topic_mapper"
+	"github.com/hanzo-fi/go-libs/v3/aws/iam"
+	circuitbreaker "github.com/hanzo-fi/go-libs/v3/publish/circuit_breaker"
+	topicmapper "github.com/hanzo-fi/go-libs/v3/publish/topic_mapper"
 )
 
 const (

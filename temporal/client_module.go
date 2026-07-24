@@ -17,7 +17,7 @@ import (
 	"go.temporal.io/sdk/interceptor"
 	"go.uber.org/fx"
 
-	"github.com/formancehq/go-libs/v3/logging"
+	"github.com/hanzo-fi/go-libs/v3/logging"
 )
 
 type SearchAttributes struct {
