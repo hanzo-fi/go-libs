@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/formancehq/go-libs/bun/bunpaginate"
+	"github.com/hanzo-fi/go-libs/bun/bunpaginate"
 
-	"github.com/formancehq/go-libs/logging"
+	"github.com/hanzo-fi/go-libs/logging"
 )
 
 const (

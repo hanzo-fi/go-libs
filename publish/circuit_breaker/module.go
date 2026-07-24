@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/formancehq/go-libs/logging"
-	"github.com/formancehq/go-libs/publish/circuit_breaker/storage"
-	topicmapper "github.com/formancehq/go-libs/publish/topic_mapper"
+	"github.com/hanzo-fi/go-libs/logging"
+	"github.com/hanzo-fi/go-libs/publish/circuit_breaker/storage"
+	topicmapper "github.com/hanzo-fi/go-libs/publish/topic_mapper"
 	"go.uber.org/fx"
 )
 

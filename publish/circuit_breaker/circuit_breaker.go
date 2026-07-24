@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/ThreeDotsLabs/watermill/message"
-	"github.com/formancehq/go-libs/logging"
-	"github.com/formancehq/go-libs/publish/circuit_breaker/storage"
+	"github.com/hanzo-fi/go-libs/logging"
+	"github.com/hanzo-fi/go-libs/publish/circuit_breaker/storage"
 	"github.com/google/uuid"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"

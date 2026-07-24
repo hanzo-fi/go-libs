@@ -1,4 +1,4 @@
-module github.com/formancehq/go-libs
+module github.com/hanzo-fi/go-libs
 
 go 1.22.0
 

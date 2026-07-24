@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/formancehq/go-libs/migrations"
+	"github.com/hanzo-fi/go-libs/migrations"
 	"github.com/uptrace/bun"
 )
 

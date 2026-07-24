@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/formancehq/go-libs/bun/bundebug"
+	"github.com/hanzo-fi/go-libs/bun/bundebug"
 	"github.com/uptrace/bun"
 
-	"github.com/formancehq/go-libs/bun/bunconnect"
-	bunpaginate2 "github.com/formancehq/go-libs/bun/bunpaginate"
-	"github.com/formancehq/go-libs/logging"
+	"github.com/hanzo-fi/go-libs/bun/bunconnect"
+	bunpaginate2 "github.com/hanzo-fi/go-libs/bun/bunpaginate"
+	"github.com/hanzo-fi/go-libs/logging"
 
 	"github.com/stretchr/testify/require"
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/formancehq/go-libs/logging"
-	"github.com/formancehq/go-libs/otlp"
+	"github.com/hanzo-fi/go-libs/logging"
+	"github.com/hanzo-fi/go-libs/otlp"
 	"go.opentelemetry.io/contrib/instrumentation/host"
 	"go.opentelemetry.io/contrib/instrumentation/runtime"
 	"go.opentelemetry.io/contrib/propagators/b3"

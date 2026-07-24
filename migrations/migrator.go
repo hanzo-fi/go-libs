@@ -6,7 +6,7 @@ import (
 	"embed"
 	"fmt"
 
-	"github.com/formancehq/go-libs/time"
+	"github.com/hanzo-fi/go-libs/time"
 
 	"github.com/lib/pq"
 

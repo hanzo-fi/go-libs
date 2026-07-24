@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/formancehq/go-libs/bun/bunpaginate"
+	"github.com/hanzo-fi/go-libs/bun/bunpaginate"
 
 	"github.com/pkg/errors"
 )

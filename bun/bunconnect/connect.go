@@ -10,7 +10,7 @@ import (
 
 	"github.com/uptrace/opentelemetry-go-extra/otelsql"
 
-	"github.com/formancehq/go-libs/logging"
+	"github.com/hanzo-fi/go-libs/logging"
 
 	"github.com/uptrace/bun"
 	"github.com/uptrace/bun/dialect/pgdialect"

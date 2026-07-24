@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/formancehq/go-libs/bun/bunpaginate"
+	"github.com/hanzo-fi/go-libs/bun/bunpaginate"
 
-	"github.com/formancehq/go-libs/api"
+	"github.com/hanzo-fi/go-libs/api"
 	"github.com/stretchr/testify/require"
 )
 

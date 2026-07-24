@@ -6,8 +6,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/formancehq/go-libs/errorsutils"
-	"github.com/formancehq/go-libs/logging"
+	"github.com/hanzo-fi/go-libs/errorsutils"
+	"github.com/hanzo-fi/go-libs/logging"
 	"github.com/spf13/cobra"
 	"go.uber.org/fx"
 )

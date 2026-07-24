@@ -3,7 +3,7 @@ package otlptraces
 import (
 	"context"
 
-	"github.com/formancehq/go-libs/otlp"
+	"github.com/hanzo-fi/go-libs/otlp"
 	"go.opentelemetry.io/contrib/propagators/b3"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/formancehq/go-libs/otlp"
+	"github.com/hanzo-fi/go-libs/otlp"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/fx"
 )

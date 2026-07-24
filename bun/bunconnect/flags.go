@@ -11,8 +11,8 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/aws/aws-sdk-go-v2/config"
-	"github.com/formancehq/go-libs/aws/iam"
-	"github.com/formancehq/go-libs/logging"
+	"github.com/hanzo-fi/go-libs/aws/iam"
+	"github.com/hanzo-fi/go-libs/logging"
 	"github.com/spf13/pflag"
 )
 

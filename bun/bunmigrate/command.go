@@ -1,7 +1,7 @@
 package bunmigrate
 
 import (
-	"github.com/formancehq/go-libs/bun/bunconnect"
+	"github.com/hanzo-fi/go-libs/bun/bunconnect"
 	"github.com/spf13/cobra"
 	"github.com/uptrace/bun"
 

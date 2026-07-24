@@ -3,7 +3,7 @@ package api
 import (
 	"fmt"
 
-	"github.com/formancehq/go-libs/api"
+	"github.com/hanzo-fi/go-libs/api"
 	"github.com/onsi/gomega/types"
 	"github.com/pkg/errors"
 )

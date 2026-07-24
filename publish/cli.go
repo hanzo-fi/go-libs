@@ -9,9 +9,9 @@ import (
 
 	"github.com/IBM/sarama"
 	"github.com/ThreeDotsLabs/watermill/message"
-	"github.com/formancehq/go-libs/aws/iam"
-	circuitbreaker "github.com/formancehq/go-libs/publish/circuit_breaker"
-	topicmapper "github.com/formancehq/go-libs/publish/topic_mapper"
+	"github.com/hanzo-fi/go-libs/aws/iam"
+	circuitbreaker "github.com/hanzo-fi/go-libs/publish/circuit_breaker"
+	topicmapper "github.com/hanzo-fi/go-libs/publish/topic_mapper"
 	"github.com/nats-io/nats.go"
 	"github.com/spf13/cobra"
 	"github.com/xdg-go/scram"
